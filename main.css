@@ -1,0 +1,56 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffd0a8;
+  color: #333;
+  font-family: 'verdana', sans-serif;
+  text-transform: capitalize;
+  text-align: center;
+}
+#quotebtn {
+  font: inherit;
+  color: white;
+  background-color: #d89156;
+  border: none;
+  border: 1px solid crimson;
+  padding: 0.2rem;
+  border-radius: 5px;
+}
+#quotebtn:hover {
+  color: #d89156;
+  background-color: white;
+}
+.container {
+  background-color: white;
+  padding: 2rem;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30rem;
+  height: 35rem;
+}
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #fcdbbf;
+  margin: 1.5rem;
+  padding: 7rem;
+  font-size: 0.7rem;
+  text-align: justify;
+  max-height: 8rem;
+  min-height: 8rem;
+  word-spacing: 1px;
+  display: none;
+}
+#quote {
+  width: 80%;
+  padding-bottom: 2rem;
+}
+input {
+  outline: none;
+  padding: 0.4rem 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid #ffd0a8;
+  text-transform: capitalize;
+}
